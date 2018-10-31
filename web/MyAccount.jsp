@@ -9,9 +9,19 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>My Account</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>My Account!</h1>
+        <h3>
+            Account Name : ${account.name} <br>
+            Balance : ${account.balance}
+        </h3>
+        <h3>
+            <a href="DepositServlet">Deposit</a>
+        </h3>
+         <h3>
+            <a href="LogoutServlet">Logout</a>
+        </h3>
     </body>
 </html>
